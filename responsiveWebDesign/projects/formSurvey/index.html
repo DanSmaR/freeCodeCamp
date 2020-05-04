@@ -6,12 +6,13 @@
     <title>FCC - Survey Form</title>
     <link rel="stylesheet" href="fonts/fonts/stylesheet.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/398aca86ed.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1 id="title" class="text-center"><code>freeCodeCamp</code> Survey Form</h1>
-            <p id="description" class="text-center">Thank you for taking the time to help us improve the plataform</p>
+            <h1 id="title" class="text-center"><code><i class="fab fa-free-code-camp"></i>freeCodeCamp</code> Survey Form</h1>
+            <p id="description" class="description text-center">Thank you for taking the time to help us improve the platform</p>
         </header>
 
         <form id="survey-form">
@@ -39,7 +40,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <p>Would you recommend <code>freeCodeCamp</code> to a friend?</p>
+                <p>Would you recommend <code><i class="fab fa-free-code-camp"></i>freeCodeCamp</code> to a friend?</p>
                 <label>
                     <input type="radio" class="input-radio" name="user-recommend" value="definetely" checked="">Definetely
                 </label>
@@ -51,7 +52,7 @@
                 </label>
             </div>
             <div class="form-group">
-                <p>What's your favorite feature of <code>freeCodeCamp</code>?</p>
+                <p>What's your favorite feature of <code><i class="fab fa-free-code-camp"></i>freeCodeCamp</code>?</p>
                 <select name="mostLike" id="most-like" class="form-control" required>
                     <option value="" disabled="" selected="">Select an option</option>
                     <option value="challenges">Challenges</option>
@@ -74,7 +75,7 @@
                 <label><input type="checkbox" class="input-checkbox" name="prefer" value="forum">Forum</label>
                 <label><input type="checkbox" class="input-checkbox" name="prefer" value="additional-courses">Additional Courses</label>
             </div>
-            <div class="form-groups">
+            <div class="form-group">
                 <p>Any comments or suggestions?</p>
                 <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comment here..."></textarea>
             </div>
@@ -83,5 +84,6 @@
             </div>
         </form>
     </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
